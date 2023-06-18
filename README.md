@@ -1,3 +1,10 @@
+### 该版本forked from Wyatt323/OpenClash-Rules,在GEOIP,CN后添加了 ,no-resolve 并未作其他更改
+### 由于原来规则中的 GEOIP,CN 没加no-resolve,可能会导致dns泄露,故在此分支中加入no-resolve
+### 但该更改可能会导致部分未设置规则的境内小型网站走代理,请酌情使用
+感谢Wyatt323大佬的辛苦整理
+
+### 以下内容为原来的readme文件
+#
 # 补充版clash规则
 本规则基于  
 ACL4SSR_Online_Full 全分组重度用户使用(与Github同步)[传送门](https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR_Online_Full.ini)  
